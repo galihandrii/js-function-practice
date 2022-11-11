@@ -1,4 +1,4 @@
-
+//DECLARATIVE FUNCTION
 
 /*function greeting(param){
     return `Hello ${param}`;
@@ -39,6 +39,7 @@ return usiaSkrg;
 const usiaGalih = hitungUsia(1997)
 console.log(usiaGalih);*/
 
+//ARROW EXPRESSION FUNCTION
 
 const perpangkatan = (angka,pangkat) => {
     const hitung = Math.pow(angka,pangkat);
@@ -47,3 +48,37 @@ const perpangkatan = (angka,pangkat) => {
    
    const tigaPangkatEmpat = perpangkatan(3,4)
    console.log(tigaPangkatEmpat);
+
+
+
+   //FUNCTION DECLARATIVE 
+   // tidak disimpan dalam variable
+   // langsung dideklarasikan dengan kalimat function
+   //syntax
+   function namaFunction(parameter){
+    // isi code
+    // function harus ngereturn
+    // penggunaan function agar reusable code
+   }
+
+   namaFunction()  // cara ngecall function
+
+   //FUNCTION EXPRESSIVE 
+   //bisa disimpa didalam variable
+   //syntax
+    const myFunction = function() {
+
+    }
+
+    myFunction() // call function
+
+
+//ARROW FUNCTION
+// hampir sama dengan expression function 
+// tanda panah menggantikan kalimat function
+//syntax
+ const fungsiSaya = () => {
+
+ }
+
+ fungsiSaya() // call function
